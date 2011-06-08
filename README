@@ -1,3 +1,11 @@
+Maybe = Sugar(arguments, object);
+
+Maybe = Maybe(pattern) //Add pattern
+Maybe.wrong(message)   //If function called with unexpected number of arguments then Maybe throw new error with message
+Maybe.def(object)      //Define default arguments
+Maybe.end(view, function) //Call function
+
+Example:
 function Point (x, y) {
     sugar(arguments, this)
         (['x','y'])

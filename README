@@ -1,3 +1,5 @@
+Mini tutorial on http://art543484.narod.ru/sugar
+
 Maybe  = Sugar(arguments, object); //New sugar
 Maybe  = Maybe(pattern)            //Add pattern
 Maybe  = Maybe.wrong(message)      //If function called with unexpected number of arguments then Maybe throw new error with message

@@ -1,0 +1,11 @@
+function Point (x, y) {
+    sugar(arguments, this)
+        (['x','y'])
+        ([['x','y']])
+        ([{x:'x',y:'y'}])
+            .wrong('Point - Unexpected number of arguments')
+            .end('x,y', function(x,y){
+                this.x = x == null ? null : Number(x);
+                this.y = y == null ? null : Number(y);
+            })
+}
